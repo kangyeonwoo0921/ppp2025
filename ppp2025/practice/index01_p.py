@@ -3,8 +3,8 @@ def minmax(nums):
     
 
 def main():
-    # test_input = "3, 4, 5, 6, 7, 8, 18, 9, 10"
-    # print(test_input.split())
+    test_input = "3, 4, 5, 6, 7, 8, 18, 9, 10"
+    print(test_input.split())
     numbers = [3, 4, 5, 6, 7, 8, 18, 9, 10]
     nums = []
     for text in test_input.split(","):
