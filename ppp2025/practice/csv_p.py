@@ -14,11 +14,6 @@ def read_db(filename):
     
 def main():
     fruit_cal = read_db("ppp2025/practice/calorie_db.csv")
-    # fruit_cal= {
-    #     "한라봉": 0.5,
-    #     "딸기": 0.34,
-    #     "바나나": 0.77
-    # }
     
     fruit_eat = {
         "쑥":150,
