@@ -9,13 +9,13 @@ def main():
     print(tmax)
     print(tmin)
     
-    fig, axes = plt.subplots(1, 2)
-    axes[1].set_ylim([0, 15])    
+    fig, ax = plt.subplots(1, 2)
+    ax[1].set_ylim([0, 15])    
     
-    # ax.plot(tmax, color = "r", label = "TMAX")
-    # ax.plot(tmin, color = "b", label = "TMIN")
-    # ax.set_ylabel("온도")
-    # ax.set_label("DAY")
+    ax.plot(tmax, color = "r", label = "TMAX")
+    ax.plot(tmin, color = "b", label = "TMIN")
+    ax.set_ylabel("온도")
+    ax.set_label("DAY")
     
 
 
